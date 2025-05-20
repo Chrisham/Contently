@@ -1,4 +1,3 @@
-
 {
   "name": "contently",
   "version": "1.0.0",
@@ -9,14 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "framer-motion": "^11.0.0",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "framer-motion": "^11.0.0"
+    "react-dom": "latest"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
     "@types/react": "^18.0.0",
-    "@types/node": "^20.0.0"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "typescript": "^5.0.0"
   }
 }
